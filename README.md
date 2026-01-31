@@ -24,7 +24,10 @@ public OnPlayerTranslate(playerid, const text[]) {
 - Compatibilidade: Open.mp (Nativo HTTPS) e SA-MP 0.3.7 (HTTP/Proxy)
 - Dependências: Nenhuma (Zero plugins)
 
+### Fotos
+
 ### Idiomas Suportados
+<img width="480" height="88" alt="Capture" src="https://github.com/user-attachments/assets/f559480e-1acc-4d60-bb18-79723add7114" />
 
 | Código | Idioma | Código | Idioma |
 | :--- | :--- | :--- | :--- |
@@ -44,4 +47,4 @@ Livre para uso e modificação. Mantenha os créditos é humilde! 😉
 
 ---
 
-**Criado por Eyk**
+**Criado por EykMarinho**
