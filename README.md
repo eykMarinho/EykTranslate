@@ -25,7 +25,6 @@ public OnPlayerTranslate(playerid, const text[]) {
 - Dependências: Nenhuma (Zero plugins)
 
 ### Idiomas Suportados
-Você pode usar os códigos ISO abaixo para definir os idiomas de origem e destino:
 
 | Código | Idioma | Código | Idioma |
 | :--- | :--- | :--- | :--- |
@@ -35,6 +34,14 @@ Você pode usar os códigos ISO abaixo para definir os idiomas de origem e desti
 | **es** | Espanhol | **ja** | Japonês |
 | **fr** | Francês | **zh** | Chinês |
 
-*E muitos outros suportados pela API MyMemory.*
+*E muitos outros suportados.*
 
-Pronto para usar!
+---
+
+### 📜 Licença
+
+Livre para uso e modificação. Mantenha os créditos é humilde! 😉
+
+---
+
+**Criado por Eyk**
