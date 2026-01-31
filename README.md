@@ -1,6 +1,8 @@
 # EykTranslate
 Include de Tradução Automática em Tempo Real para SA-MP e Open.mp. Traduza mensagens do chat ou comandos instantaneamente, sem precisar de plugins ou bots externos.
 
+---
+
 ### Como usar
 Use as funções:
 
@@ -19,15 +21,21 @@ public OnPlayerTranslate(playerid, const text[]) {
 }
 ```
 
+---
+
 ### Configuração
 - Idioma padrão: Português (pt)
 - Compatibilidade: Open.mp (Nativo HTTPS) e SA-MP 0.3.7 (HTTP/Proxy)
 - Dependências: Nenhuma (Zero plugins)
 
+---
+
 ### Fotos
+<img width="480" height="88" alt="Capture" src="https://github.com/user-attachments/assets/f559480e-1acc-4d60-bb18-79723add7114" />
+
+---
 
 ### Idiomas Suportados
-<img width="480" height="88" alt="Capture" src="https://github.com/user-attachments/assets/f559480e-1acc-4d60-bb18-79723add7114" />
 
 | Código | Idioma | Código | Idioma |
 | :--- | :--- | :--- | :--- |
