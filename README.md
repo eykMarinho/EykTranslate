@@ -24,4 +24,17 @@ public OnPlayerTranslate(playerid, const text[]) {
 - Compatibilidade: Open.mp (Nativo HTTPS) e SA-MP 0.3.7 (HTTP/Proxy)
 - Dependências: Nenhuma (Zero plugins)
 
+### Idiomas Suportados
+Você pode usar os códigos ISO abaixo para definir os idiomas de origem e destino:
+
+| Código | Idioma | Código | Idioma |
+| :--- | :--- | :--- | :--- |
+| **Auto** | Autodetectar | **it** | Italiano |
+| **pt** | Português | **ru** | Russo |
+| **en** | Inglês | **de** | Alemão |
+| **es** | Espanhol | **ja** | Japonês |
+| **fr** | Francês | **zh** | Chinês |
+
+*E muitos outros suportados pela API MyMemory.*
+
 Pronto para usar!
