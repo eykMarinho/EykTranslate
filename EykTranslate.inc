@@ -1,19 +1,22 @@
-/*
-    EykTranslate.inc - Tradutor Automático em Tempo Real (Plug & Play)
-    
-    COMO USAR:
-    1. Apenas inclua este arquivo no seu gamemode:
-       #include <EykTranslate>
-       
-    CONFIGURAÇÃO OPCIONAL (Defina antes do include):
-    #define EYK_TRANSLATE_LANG "pt"     // Idioma alvo (padrão: pt = Português)
-
-    
-    COMPATIBILIDADE:
-    - Open.mp: Funciona nativamente com HTTPS (Recomendado).
-    - SA-MP Padrão: A API padrão (MyMemory) pode exigir HTTPS. 
-      Se falhar, use um proxy HTTP.
-*/
+/* 
+ * EykTranslate - Tradutor Automático em Tempo Real (Plug & Play)
+ * Versão: 1.0 
+ * Autor: Eyk 
+ * 
+ * Funções principais: 
+ * - EykTrans_Translate(playerid, const text[]) - Envia texto para tradução
+ * - EykTrans_SetLanguage(const source[], const target[]) - Configura idiomas (ex: "en", "pt")
+ * 
+ * Callbacks:
+ * - OnPlayerTranslate(playerid, const text[]) - Chamada quando a tradução está pronta
+ * 
+ * Configuração Opcional (Defina antes do include):
+ * - #define EYK_TRANSLATE_LANG "pt" (Idioma padrão)
+ * 
+ * Compatibilidade:
+ * - Open.mp (Nativo HTTPS)
+ * - SA-MP 0.3.7 (HTTP/Proxy Automático)
+ */
 
 #if defined _EykTranslate_included
     #endinput
