@@ -30,7 +30,6 @@
     #define EYK_TRANSLATE_LANG "pt"
 #endif
 
-// Variáveis globais para armazenar os idiomas atuais
 new g_EykTrans_SourceLang[6] = "Auto";
 new g_EykTrans_TargetLang[6] = EYK_TRANSLATE_LANG;
 
@@ -40,7 +39,7 @@ new g_EykTrans_TargetLang[6] = EYK_TRANSLATE_LANG;
     #define EYK_TRANSLATE_API "api.mymemory.translated.net/get"
 #endif
 
-// --- Funções Auxiliares ---
+//Funções Auxiliares
 
 static stock EykTrans_URLEncode(dest[], len, const source[]) {
     new idx = 0;
@@ -59,7 +58,6 @@ static stock EykTrans_URLEncode(dest[], len, const source[]) {
     dest[idx] = 0;
 }
 
-// Extrai o valor de um campo JSON simples (sem parser complexo)
 static stock EykTrans_ExtractJSON(const json[], const key[], output[], len) {
     new pos = strfind(json, key, true);
     if(pos == -1) return 0;
@@ -99,7 +97,6 @@ public OnTranslateResponse(playerid, response_code, data[]) {
     return 1;
 }
 
-// Forward para quem quiser usar a tradução no gamemode
 forward OnPlayerTranslate(playerid, const text[]);
 
 stock EykTrans_SetLanguage(const source[], const target[]) {
