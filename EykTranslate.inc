@@ -1,5 +1,5 @@
 /* 
- * EykTranslate - Tradutor Automático em Tempo Real (Plug & Play)
+ * EykTranslate - Tradutor Automático em Tempo Real
  * Versão: 1.0 
  * Autor: Eyk 
  * 
